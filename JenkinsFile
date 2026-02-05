@@ -5,7 +5,7 @@ pipeline {
        stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/vivekbhardwajaug07/SeleniumNewProject.git'
+                    url: 'https://github.com/vivekbhardwajaug07/SeleniumPipelinePractise.git'
             }
         }
         stage('Run Tests') {
